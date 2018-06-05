@@ -26,7 +26,7 @@
 #ifndef TAGLIB_TAG_H
 #define TAGLIB_TAG_H
 
-#include "taglib_export.h"
+#include "taglib/taglib_export.h"
 #include "tstring.h"
 
 namespace TagLib {

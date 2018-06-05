@@ -27,7 +27,7 @@
 #define TAGLIB_ITPROPERTIES_H
 
 #include "taglib.h"
-#include "audioproperties.h"
+#include "taglib/audioproperties.h"
 
 namespace TagLib {
   namespace IT {

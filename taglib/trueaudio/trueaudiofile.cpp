@@ -30,15 +30,15 @@
 #include <tbytevector.h>
 #include <tstring.h>
 #include <tdebug.h>
-#include <tagunion.h>
+#include <taglib/tagunion.h>
 #include <tstringlist.h>
 #include <tpropertymap.h>
-#include <tagutils.h>
+#include <taglib/tagutils.h>
 
 #include "trueaudiofile.h"
-#include "id3v1tag.h"
-#include "id3v2tag.h"
-#include "id3v2header.h"
+#include "taglib/mpeg/id3v1/id3v1tag.h"
+#include "taglib/mpeg/id3v2/id3v2tag.h"
+#include "taglib/mpeg/id3v2/id3v2header.h"
 
 using namespace TagLib;
 

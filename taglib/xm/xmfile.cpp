@@ -26,7 +26,7 @@
 #include "tstringlist.h"
 #include "tdebug.h"
 #include "xmfile.h"
-#include "modfileprivate.h"
+#include "taglib/mod/modfileprivate.h"
 #include "tpropertymap.h"
 
 #include <string.h>

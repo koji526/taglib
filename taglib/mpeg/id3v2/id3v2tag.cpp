@@ -30,12 +30,12 @@
 #include <tpropertymap.h>
 #include <tdebug.h>
 
-#include "id3v2tag.h"
-#include "id3v2header.h"
-#include "id3v2extendedheader.h"
-#include "id3v2footer.h"
-#include "id3v2synchdata.h"
-#include "id3v1genres.h"
+#include "taglib/mpeg/id3v2/id3v2tag.h"
+#include "taglib/mpeg/id3v2/id3v2header.h"
+#include "taglib/mpeg/id3v2/id3v2extendedheader.h"
+#include "taglib/mpeg/id3v2/id3v2footer.h"
+#include "taglib/mpeg/id3v2/id3v2synchdata.h"
+#include "taglib/mpeg/id3v1/id3v1genres.h"
 
 #include "frames/textidentificationframe.h"
 #include "frames/commentsframe.h"

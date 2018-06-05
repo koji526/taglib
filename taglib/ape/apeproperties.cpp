@@ -30,7 +30,7 @@
 #include <tstring.h>
 #include <tdebug.h>
 #include <bitset>
-#include "id3v2tag.h"
+#include "taglib/mpeg/id3v2/id3v2tag.h"
 #include "apeproperties.h"
 #include "apefile.h"
 #include "apetag.h"

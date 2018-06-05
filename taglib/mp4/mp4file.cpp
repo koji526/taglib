@@ -26,7 +26,7 @@
 #include <tdebug.h>
 #include <tstring.h>
 #include <tpropertymap.h>
-#include <tagutils.h>
+#include <taglib/tagutils.h>
 
 #include "mp4atom.h"
 #include "mp4tag.h"

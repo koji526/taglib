@@ -29,7 +29,7 @@
 #include "tlist.h"
 #include "tstring.h"
 #include "tbytevector.h"
-#include "taglib_export.h"
+#include "taglib/taglib_export.h"
 #include "flacmetadatablock.h"
 
 namespace TagLib {

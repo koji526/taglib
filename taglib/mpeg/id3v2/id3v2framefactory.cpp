@@ -28,7 +28,7 @@
 
 #include "id3v2framefactory.h"
 #include "id3v2synchdata.h"
-#include "id3v1genres.h"
+#include "taglib/mpeg/id3v1/id3v1genres.h"
 
 #include "frames/attachedpictureframe.h"
 #include "frames/commentsframe.h"

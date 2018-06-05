@@ -27,14 +27,14 @@
 #include <tstring.h>
 #include <tlist.h>
 #include <tdebug.h>
-#include <tagunion.h>
+#include <taglib/tagunion.h>
 #include <tpropertymap.h>
-#include <tagutils.h>
+#include <taglib/tagutils.h>
 
-#include <id3v2header.h>
-#include <id3v2tag.h>
-#include <id3v1tag.h>
-#include <xiphcomment.h>
+#include <taglib/mpeg/id3v2/id3v2header.h>
+#include <taglib/mpeg/id3v2/id3v2tag.h>
+#include <taglib/mpeg/id3v1/id3v1tag.h>
+#include <taglib/ogg/xiphcomment.h>
 
 #include "flacpicture.h"
 #include "flacfile.h"

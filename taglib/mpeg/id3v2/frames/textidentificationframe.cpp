@@ -24,10 +24,10 @@
  ***************************************************************************/
 
 #include <tbytevectorlist.h>
-#include <id3v2tag.h>
+#include <taglib/mpeg/id3v2/id3v2tag.h>
 #include "textidentificationframe.h"
 #include "tpropertymap.h"
-#include "id3v1genres.h"
+#include "taglib/mpeg/id3v1/id3v1genres.h"
 
 using namespace TagLib;
 using namespace ID3v2;

@@ -23,7 +23,7 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#include "taglib_export.h"
+#include "taglib/taglib_export.h"
 #include "tfile.h"
 #include "tbytevectorlist.h"
 

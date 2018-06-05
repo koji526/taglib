@@ -29,7 +29,7 @@
 #include "tstring.h"
 #include "tlist.h"
 #include "tbytevectorlist.h"
-#include "taglib_export.h"
+#include "taglib/taglib_export.h"
 
 #include <iostream>
 

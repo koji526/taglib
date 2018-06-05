@@ -31,7 +31,7 @@
 #define TAGLIB_WVFILE_H
 
 #include "tfile.h"
-#include "taglib_export.h"
+#include "taglib/taglib_export.h"
 #include "wavpackproperties.h"
 
 namespace TagLib {

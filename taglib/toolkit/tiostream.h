@@ -26,7 +26,7 @@
 #ifndef TAGLIB_IOSTREAM_H
 #define TAGLIB_IOSTREAM_H
 
-#include "taglib_export.h"
+#include "taglib/taglib_export.h"
 #include "taglib.h"
 #include "tbytevector.h"
 
@@ -50,8 +50,11 @@ namespace TagLib {
     String toString() const;
 
   private:
+#pragma warning(push)
+#pragma warning(disable : 4251)
     const std::string  m_name;
     const std::wstring m_wname;
+#pragma warning(pop)	//Re-enable the warnings
   };
 #else
   typedef const char *FileName;

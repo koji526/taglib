@@ -28,7 +28,7 @@
 
 #include "tmap.h"
 #include "tstringlist.h"
-#include "taglib_export.h"
+#include "taglib/taglib_export.h"
 
 namespace TagLib {
   namespace ID3v1 {

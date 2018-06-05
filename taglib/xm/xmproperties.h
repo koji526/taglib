@@ -28,7 +28,7 @@
 
 #include "taglib.h"
 #include "tstring.h"
-#include "audioproperties.h"
+#include "taglib/audioproperties.h"
 
 namespace TagLib {
   namespace XM {

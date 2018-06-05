@@ -26,7 +26,7 @@
 #ifndef TAGLIB_REFCOUNTER_H
 #define TAGLIB_REFCOUNTER_H
 
-#include "taglib_export.h"
+#include "taglib/taglib_export.h"
 #include "taglib.h"
 
 #ifdef __APPLE__

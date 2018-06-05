@@ -27,7 +27,7 @@
 #define TAGLIB_MODPROPERTIES_H
 
 #include "taglib.h"
-#include "audioproperties.h"
+#include "taglib/audioproperties.h"
 
 namespace TagLib {
 

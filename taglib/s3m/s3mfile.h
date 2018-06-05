@@ -27,11 +27,11 @@
 #define TAGLIB_S3MFILE_H
 
 #include "tfile.h"
-#include "audioproperties.h"
-#include "taglib_export.h"
-#include "modfilebase.h"
-#include "modtag.h"
-#include "s3mproperties.h"
+#include "taglib/audioproperties.h"
+#include "taglib/taglib_export.h"
+#include "taglib/mod/modfilebase.h"
+#include "taglib/mod/modtag.h"
+#include "taglib/s3m/s3mproperties.h"
 
 namespace TagLib {
 

@@ -26,8 +26,8 @@
 #ifndef TAGLIB_MPEGPROPERTIES_H
 #define TAGLIB_MPEGPROPERTIES_H
 
-#include "taglib_export.h"
-#include "audioproperties.h"
+#include "taglib/taglib_export.h"
+#include "taglib/audioproperties.h"
 
 #include "mpegheader.h"
 

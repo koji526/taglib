@@ -28,7 +28,7 @@
 
 #include "tstringlist.h"
 #include "mp4coverart.h"
-#include "taglib_export.h"
+#include "taglib/taglib_export.h"
 
 namespace TagLib {
 

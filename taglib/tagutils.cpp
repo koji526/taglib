@@ -25,9 +25,9 @@
 
 #include <tfile.h>
 
-#include "id3v1tag.h"
-#include "id3v2header.h"
-#include "apetag.h"
+#include "taglib/mpeg/id3v1/id3v1tag.h"
+#include "taglib/mpeg/id3v2/id3v2header.h"
+#include "taglib/ape/apetag.h"
 
 #include "tagutils.h"
 

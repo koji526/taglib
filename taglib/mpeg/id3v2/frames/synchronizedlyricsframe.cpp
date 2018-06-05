@@ -25,7 +25,7 @@
 
 #include "synchronizedlyricsframe.h"
 #include <tbytevectorlist.h>
-#include <id3v2tag.h>
+#include <taglib/mpeg/id3v2/id3v2tag.h>
 #include <tdebug.h>
 #include <tpropertymap.h>
 

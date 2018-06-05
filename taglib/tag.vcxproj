@@ -53,7 +53,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\sdk\TagLib\taglib;C:\sdk\TagLib;C:\sdk\TagLib\taglib\toolkit;C:\sdk\TagLib\taglib\asf;C:\sdk\TagLib\taglib\mpeg;C:\sdk\TagLib\taglib\ogg;C:\sdk\TagLib\taglib\ogg\flac;C:\sdk\TagLib\taglib\flac;C:\sdk\TagLib\taglib\mpc;C:\sdk\TagLib\taglib\mp4;C:\sdk\TagLib\taglib\ogg\vorbis;C:\sdk\TagLib\taglib\ogg\speex;C:\sdk\TagLib\taglib\ogg\opus;C:\sdk\TagLib\taglib\mpeg\id3v2;C:\sdk\TagLib\taglib\mpeg\id3v2\frames;C:\sdk\TagLib\taglib\mpeg\id3v1;C:\sdk\TagLib\taglib\ape;C:\sdk\TagLib\taglib\wavpack;C:\sdk\TagLib\taglib\trueaudio;C:\sdk\TagLib\taglib\riff;C:\sdk\TagLib\taglib\riff\aiff;C:\sdk\TagLib\taglib\riff\wav;C:\sdk\TagLib\taglib\mod;C:\sdk\TagLib\taglib\s3m;C:\sdk\TagLib\taglib\it;C:\sdk\TagLib\taglib\xm;C:\sdk\TagLib\3rdparty;C:\sdk\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\sdk\TagLib;C:\sdk\TagLib\taglib/toolkit;C:\sdk\TagLib\3rdparty;C:\sdk\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -96,7 +96,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\sdk\TagLib\taglib;C:\sdk\TagLib;C:\sdk\TagLib\taglib\toolkit;C:\sdk\TagLib\taglib\asf;C:\sdk\TagLib\taglib\mpeg;C:\sdk\TagLib\taglib\ogg;C:\sdk\TagLib\taglib\ogg\flac;C:\sdk\TagLib\taglib\flac;C:\sdk\TagLib\taglib\mpc;C:\sdk\TagLib\taglib\mp4;C:\sdk\TagLib\taglib\ogg\vorbis;C:\sdk\TagLib\taglib\ogg\speex;C:\sdk\TagLib\taglib\ogg\opus;C:\sdk\TagLib\taglib\mpeg\id3v2;C:\sdk\TagLib\taglib\mpeg\id3v2\frames;C:\sdk\TagLib\taglib\mpeg\id3v1;C:\sdk\TagLib\taglib\ape;C:\sdk\TagLib\taglib\wavpack;C:\sdk\TagLib\taglib\trueaudio;C:\sdk\TagLib\taglib\riff;C:\sdk\TagLib\taglib\riff\aiff;C:\sdk\TagLib\taglib\riff\wav;C:\sdk\TagLib\taglib\mod;C:\sdk\TagLib\taglib\s3m;C:\sdk\TagLib\taglib\it;C:\sdk\TagLib\taglib\xm;C:\sdk\TagLib\3rdparty;C:\sdk\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\sdk\TagLib;C:\sdk\TagLib\taglib/toolkit;C:\sdk\TagLib\3rdparty;C:\sdk\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>

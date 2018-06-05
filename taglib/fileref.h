@@ -29,8 +29,8 @@
 #include "tfile.h"
 #include "tstringlist.h"
 
-#include "taglib_export.h"
-#include "audioproperties.h"
+#include "taglib/taglib_export.h"
+#include "taglib/audioproperties.h"
 
 namespace TagLib {
 

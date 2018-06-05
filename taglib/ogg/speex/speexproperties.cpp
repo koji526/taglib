@@ -30,7 +30,7 @@
 #include <tstring.h>
 #include <tdebug.h>
 
-#include <oggpageheader.h>
+#include <taglib/ogg/oggpageheader.h>
 
 #include "speexproperties.h"
 #include "speexfile.h"

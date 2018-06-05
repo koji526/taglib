@@ -28,7 +28,7 @@
 #include <id3v2tag.h>
 #include <tstringlist.h>
 #include <tpropertymap.h>
-#include <tagutils.h>
+#include <taglib/tagutils.h>
 
 #include "aifffile.h"
 

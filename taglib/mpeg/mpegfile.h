@@ -26,9 +26,9 @@
 #ifndef TAGLIB_MPEGFILE_H
 #define TAGLIB_MPEGFILE_H
 
-#include "taglib_export.h"
+#include "taglib/taglib_export.h"
 #include "tfile.h"
-#include "tag.h"
+#include "taglib/tag.h"
 
 #include "mpegproperties.h"
 

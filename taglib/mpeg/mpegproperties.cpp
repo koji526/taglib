@@ -29,8 +29,8 @@
 #include "mpegproperties.h"
 #include "mpegfile.h"
 #include "xingheader.h"
-#include "apetag.h"
-#include "apefooter.h"
+#include "taglib/ape/apetag.h"
+#include "taglib/ape/apefooter.h"
 
 using namespace TagLib;
 

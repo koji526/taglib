@@ -28,8 +28,8 @@
 
 #include "tstring.h"
 #include "tbytevector.h"
-#include "taglib_export.h"
-#include "attachedpictureframe.h"
+#include "taglib/taglib_export.h"
+#include "taglib/mpeg/id3v2/frames/attachedpictureframe.h"
 
 namespace TagLib
 {

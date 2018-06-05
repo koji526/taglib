@@ -27,9 +27,9 @@
 #include <tstring.h>
 #include <tdebug.h>
 #include <tpropertymap.h>
-#include <tagutils.h>
+#include <taglib/tagutils.h>
 
-#include <xiphcomment.h>
+#include <taglib/ogg/xiphcomment.h>
 #include "oggflacfile.h"
 
 using namespace TagLib;

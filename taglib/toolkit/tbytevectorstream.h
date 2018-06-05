@@ -26,7 +26,7 @@
 #ifndef TAGLIB_BYTEVECTORSTREAM_H
 #define TAGLIB_BYTEVECTORSTREAM_H
 
-#include "taglib_export.h"
+#include "taglib/taglib_export.h"
 #include "taglib.h"
 #include "tbytevector.h"
 #include "tiostream.h"

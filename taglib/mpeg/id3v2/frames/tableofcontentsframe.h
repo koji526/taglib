@@ -26,8 +26,8 @@
 #ifndef TAGLIB_TABLEOFCONTENTSFRAME
 #define TAGLIB_TABLEOFCONTENTSFRAME
 
-#include "id3v2tag.h"
-#include "id3v2frame.h"
+#include "taglib/mpeg/id3v2/id3v2tag.h"
+#include "taglib/mpeg/id3v2/id3v2frame.h"
 
 #include "tbytevectorlist.h"
 

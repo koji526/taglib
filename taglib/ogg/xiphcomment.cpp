@@ -26,7 +26,7 @@
 #include <tbytevector.h>
 #include <tdebug.h>
 
-#include <flacpicture.h>
+#include <taglib/flac/flacpicture.h>
 #include <xiphcomment.h>
 #include <tpropertymap.h>
 

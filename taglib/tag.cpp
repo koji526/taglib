@@ -23,7 +23,7 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#include "tag.h"
+#include "taglib/tag.h"
 #include "tstringlist.h"
 #include "tpropertymap.h"
 

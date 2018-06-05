@@ -27,7 +27,7 @@
 #include <tbytevectorlist.h>
 #include <tpropertymap.h>
 #include <tstring.h>
-#include <tagutils.h>
+#include <taglib/tagutils.h>
 
 #include "asffile.h"
 #include "asftag.h"

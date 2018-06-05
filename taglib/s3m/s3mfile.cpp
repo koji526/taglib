@@ -27,7 +27,7 @@
 #include "s3mfile.h"
 #include "tstringlist.h"
 #include "tdebug.h"
-#include "modfileprivate.h"
+#include "taglib/mod/modfileprivate.h"
 #include "tpropertymap.h"
 
 #include <iostream>

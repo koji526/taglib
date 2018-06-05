@@ -30,7 +30,7 @@
 #include "tfile.h"
 #include "tstring.h"
 #include "tlist.h"
-#include "taglib_export.h"
+#include "taglib/taglib_export.h"
 
 #include <algorithm>
 
