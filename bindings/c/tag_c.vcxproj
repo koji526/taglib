@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B0AD9D39-BA33-3DB5-AA57-7628E0F38711}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>tag_c</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\sdk\TagLib\bindings\c\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">tag_c.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">tag_c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\sdk\TagLib\bindings\c\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">tag_c.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">tag_c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\sdk\TagLib;C:\sdk\TagLib\bindings\c\..\..\taglib;C:\sdk\TagLib\bindings\c\..\..\taglib\toolkit;C:\sdk\TagLib\bindings\c\..\..\taglib\asf;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\vorbis;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\flac;C:\sdk\TagLib\bindings\c\..\..\taglib\flac;C:\sdk\TagLib\bindings\c\..\..\taglib\mpc;C:\sdk\TagLib\bindings\c\..\..\taglib\mp4;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg\id3v2;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg\id3v2\frames;C:\sdk\TagLib\bindings\c\..\..\taglib\wavpack;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\speex;C:\sdk\TagLib\bindings\c\..\..\taglib\trueaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_CONFIG_H;CMAKE_INTDIR="Debug";MAKE_TAGLIB_C_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\";MAKE_TAGLIB_C_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\sdk\TagLib;C:\sdk\TagLib\bindings\c\..\..\taglib;C:\sdk\TagLib\bindings\c\..\..\taglib\toolkit;C:\sdk\TagLib\bindings\c\..\..\taglib\asf;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\vorbis;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\flac;C:\sdk\TagLib\bindings\c\..\..\taglib\flac;C:\sdk\TagLib\bindings\c\..\..\taglib\mpc;C:\sdk\TagLib\bindings\c\..\..\taglib\mp4;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg\id3v2;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg\id3v2\frames;C:\sdk\TagLib\bindings\c\..\..\taglib\wavpack;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\speex;C:\sdk\TagLib\bindings\c\..\..\taglib\trueaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\sdk\TagLib;C:\sdk\TagLib\bindings\c\..\..\taglib;C:\sdk\TagLib\bindings\c\..\..\taglib\toolkit;C:\sdk\TagLib\bindings\c\..\..\taglib\asf;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\vorbis;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\flac;C:\sdk\TagLib\bindings\c\..\..\taglib\flac;C:\sdk\TagLib\bindings\c\..\..\taglib\mpc;C:\sdk\TagLib\bindings\c\..\..\taglib\mp4;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg\id3v2;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg\id3v2\frames;C:\sdk\TagLib\bindings\c\..\..\taglib\wavpack;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\speex;C:\sdk\TagLib\bindings\c\..\..\taglib\trueaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\taglib\Debug\tag.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/sdk/TagLib/bindings/c/Debug/tag_c.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/sdk/TagLib/bindings/c/Debug/tag_c.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\sdk\TagLib;C:\sdk\TagLib\bindings\c\..\..\taglib;C:\sdk\TagLib\bindings\c\..\..\taglib\toolkit;C:\sdk\TagLib\bindings\c\..\..\taglib\asf;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\vorbis;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\flac;C:\sdk\TagLib\bindings\c\..\..\taglib\flac;C:\sdk\TagLib\bindings\c\..\..\taglib\mpc;C:\sdk\TagLib\bindings\c\..\..\taglib\mp4;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg\id3v2;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg\id3v2\frames;C:\sdk\TagLib\bindings\c\..\..\taglib\wavpack;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\speex;C:\sdk\TagLib\bindings\c\..\..\taglib\trueaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;CMAKE_INTDIR="Release";MAKE_TAGLIB_C_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;CMAKE_INTDIR=\"Release\";MAKE_TAGLIB_C_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\sdk\TagLib;C:\sdk\TagLib\bindings\c\..\..\taglib;C:\sdk\TagLib\bindings\c\..\..\taglib\toolkit;C:\sdk\TagLib\bindings\c\..\..\taglib\asf;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\vorbis;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\flac;C:\sdk\TagLib\bindings\c\..\..\taglib\flac;C:\sdk\TagLib\bindings\c\..\..\taglib\mpc;C:\sdk\TagLib\bindings\c\..\..\taglib\mp4;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg\id3v2;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg\id3v2\frames;C:\sdk\TagLib\bindings\c\..\..\taglib\wavpack;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\speex;C:\sdk\TagLib\bindings\c\..\..\taglib\trueaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\sdk\TagLib;C:\sdk\TagLib\bindings\c\..\..\taglib;C:\sdk\TagLib\bindings\c\..\..\taglib\toolkit;C:\sdk\TagLib\bindings\c\..\..\taglib\asf;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\vorbis;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\flac;C:\sdk\TagLib\bindings\c\..\..\taglib\flac;C:\sdk\TagLib\bindings\c\..\..\taglib\mpc;C:\sdk\TagLib\bindings\c\..\..\taglib\mp4;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg\id3v2;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg\id3v2\frames;C:\sdk\TagLib\bindings\c\..\..\taglib\wavpack;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\speex;C:\sdk\TagLib\bindings\c\..\..\taglib\trueaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\taglib\Release\tag.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/sdk/TagLib/bindings/c/Release/tag_c.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/sdk/TagLib/bindings/c/Release/tag_c.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\sdk\TagLib\bindings\c\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/sdk/TagLib/bindings/c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/sdk/TagLib -BC:/sdk/TagLib --check-stamp-file C:/sdk/TagLib/bindings/c/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/sdk/TagLib/bindings/c/CMakeLists.txt;C:\sdk\TagLib\bindings\c\CMakeLists.txt;C:\sdk\TagLib\bindings\c\taglib_c.pc.cmake;C:\sdk\TagLib\bindings\c\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\sdk\TagLib\bindings\c\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/sdk/TagLib/bindings/c/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/sdk/TagLib -BC:/sdk/TagLib --check-stamp-file C:/sdk/TagLib/bindings/c/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/sdk/TagLib/bindings/c/CMakeLists.txt;C:\sdk\TagLib\bindings\c\CMakeLists.txt;C:\sdk\TagLib\bindings\c\taglib_c.pc.cmake;C:\sdk\TagLib\bindings\c\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\sdk\TagLib\bindings\c\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\sdk\TagLib\bindings\c\tag_c.cpp"  />
+    <ClInclude Include="C:\sdk\TagLib\bindings\c\tag_c.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\sdk\TagLib\ZERO_CHECK.vcxproj">
+      <Project>{DB5ABBAE-0519-37F3-B870-56CE5648420C}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sdk\TagLib\taglib\tag.vcxproj">
+      <Project>{C2EEEA42-F1A4-383E-9EEE-2E4F6330807F}</Project>
+      <Name>tag</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
