@@ -59,7 +59,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\sdk\TagLib;C:\sdk\TagLib\bindings\c\..\..\taglib;C:\sdk\TagLib\bindings\c\..\..\taglib\toolkit;C:\sdk\TagLib\bindings\c\..\..\taglib\asf;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\vorbis;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\flac;C:\sdk\TagLib\bindings\c\..\..\taglib\flac;C:\sdk\TagLib\bindings\c\..\..\taglib\mpc;C:\sdk\TagLib\bindings\c\..\..\taglib\mp4;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg\id3v2;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg\id3v2\frames;C:\sdk\TagLib\bindings\c\..\..\taglib\wavpack;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\speex;C:\sdk\TagLib\bindings\c\..\..\taglib\trueaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\sdk\TagLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -92,7 +92,7 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>tag_c.lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
       <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -102,7 +102,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\sdk\TagLib;C:\sdk\TagLib\bindings\c\..\..\taglib;C:\sdk\TagLib\bindings\c\..\..\taglib\toolkit;C:\sdk\TagLib\bindings\c\..\..\taglib\asf;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\vorbis;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\flac;C:\sdk\TagLib\bindings\c\..\..\taglib\flac;C:\sdk\TagLib\bindings\c\..\..\taglib\mpc;C:\sdk\TagLib\bindings\c\..\..\taglib\mp4;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg\id3v2;C:\sdk\TagLib\bindings\c\..\..\taglib\mpeg\id3v2\frames;C:\sdk\TagLib\bindings\c\..\..\taglib\wavpack;C:\sdk\TagLib\bindings\c\..\..\taglib\ogg\speex;C:\sdk\TagLib\bindings\c\..\..\taglib\trueaudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\sdk\TagLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -135,7 +135,7 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>tag_c.lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)$(TargetName).lib</ImportLibrary>
       <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>

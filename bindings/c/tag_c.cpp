@@ -24,21 +24,21 @@
 #endif
 
 #include <stdlib.h>
-#include <fileref.h>
+#include <taglib/fileref.h>
 #include <taglib/toolkit/tfile.h>
-#include <asffile.h>
-#include <vorbisfile.h>
-#include <mpegfile.h>
-#include <flacfile.h>
-#include <oggflacfile.h>
-#include <mpcfile.h>
-#include <wavpackfile.h>
-#include <speexfile.h>
-#include <trueaudiofile.h>
-#include <mp4file.h>
-#include <tag.h>
+#include <taglib/asf/asffile.h>
+#include <taglib/ogg/vorbis/vorbisfile.h>
+#include <taglib/mpeg/mpegfile.h>
+#include <taglib/flac/flacfile.h>
+#include <taglib/ogg/flac/oggflacfile.h>
+#include <taglib/mpc/mpcfile.h>
+#include <taglib/wavpack/wavpackfile.h>
+#include <taglib/ogg/speex/speexfile.h>
+#include <taglib/trueaudio/trueaudiofile.h>
+#include <taglib/mp4/mp4file.h>
+#include <taglib/tag.h>
 #include <string.h>
-#include <id3v2framefactory.h>
+#include <taglib/mpeg/id3v2/id3v2framefactory.h>
 
 #include "tag_c.h"
 
