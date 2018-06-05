@@ -24,7 +24,7 @@
  ***************************************************************************/
 
 
-#include "tdebug.h"
+#include "taglib/toolkit/tdebug.h"
 #include "modfilebase.h"
 
 using namespace TagLib;
