@@ -24,3 +24,7 @@ licenses if you are considering using TagLib in your project.
   [GNU Lesser General Public License]: http://www.gnu.org/licenses/lgpl.html
   [Mozilla Public License]: http://www.mozilla.org/MPL/MPL-1.1.html
 
+### Forked?
+
+Modified to allow include of only one directory and use it like this: #include <taglib/mp4/mp4file.h>
+instead of multiple include directories.
