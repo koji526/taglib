@@ -24,11 +24,11 @@
  ***************************************************************************/
 
 
-#include "tstringlist.h"
+#include "taglib/toolkit/tstringlist.h"
 #include "itfile.h"
-#include "tdebug.h"
+#include "taglib/toolkit/tdebug.h"
 #include "taglib/mod/modfileprivate.h"
-#include "tpropertymap.h"
+#include "taglib/toolkit/tpropertymap.h"
 
 using namespace TagLib;
 using namespace IT;

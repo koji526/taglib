@@ -27,10 +27,10 @@
 #define TAGLIB_MP4TAG_H
 
 #include "taglib/tag.h"
-#include "tbytevectorlist.h"
-#include "tfile.h"
-#include "tmap.h"
-#include "tstringlist.h"
+#include "taglib/toolkit/tbytevectorlist.h"
+#include "taglib/toolkit/tfile.h"
+#include "taglib/toolkit/tmap.h"
+#include "taglib/toolkit/tstringlist.h"
 #include "taglib/taglib_export.h"
 #include "mp4atom.h"
 #include "mp4item.h"

@@ -24,7 +24,7 @@
  ***************************************************************************/
 
 #include "tbytevectorstream.h"
-#include "tstring.h"
+#include "taglib/toolkit/tstring.h"
 #include "tdebug.h"
 
 #include <stdio.h>

@@ -26,8 +26,8 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#include <tdebug.h>
-#include <tstringlist.h>
+#include <taglib/toolkit/tdebug.h>
+#include <taglib/toolkit/tstringlist.h>
 
 #include "generalencapsulatedobjectframe.h"
 

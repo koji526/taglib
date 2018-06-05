@@ -25,15 +25,15 @@
 
 #include <bitset>
 
-#include <tdebug.h>
-#include <tstringlist.h>
-#include <tzlib.h>
+#include <taglib/toolkit/tdebug.h>
+#include <taglib/toolkit/tstringlist.h>
+#include <taglib/toolkit/tzlib.h>
 
 #include "id3v2tag.h"
 #include "id3v2frame.h"
 #include "id3v2synchdata.h"
 
-#include "tpropertymap.h"
+#include "taglib/toolkit/tpropertymap.h"
 #include "frames/textidentificationframe.h"
 #include "frames/urllinkframe.h"
 #include "frames/unsynchronizedlyricsframe.h"

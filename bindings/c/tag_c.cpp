@@ -25,7 +25,7 @@
 
 #include <stdlib.h>
 #include <fileref.h>
-#include <tfile.h>
+#include <taglib/toolkit/tfile.h>
 #include <asffile.h>
 #include <vorbisfile.h>
 #include <mpegfile.h>

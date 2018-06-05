@@ -23,8 +23,8 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#include <taglib.h>
-#include <tdebug.h>
+#include <taglib/toolkit/taglib.h>
+#include <taglib/toolkit/tdebug.h>
 #include "flacpicture.h"
 
 using namespace TagLib;

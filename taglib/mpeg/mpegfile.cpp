@@ -30,12 +30,12 @@
 #include <taglib/mpeg/id3v1/id3v1tag.h>
 #include <taglib/ape/apefooter.h>
 #include <taglib/ape/apetag.h>
-#include <tdebug.h>
+#include <taglib/toolkit/tdebug.h>
 
 #include "mpegfile.h"
 #include "mpegheader.h"
 #include "mpegutils.h"
-#include "tpropertymap.h"
+#include "taglib/toolkit/tpropertymap.h"
 
 using namespace TagLib;
 

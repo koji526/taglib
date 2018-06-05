@@ -27,8 +27,8 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#include <tstring.h>
-#include <tdebug.h>
+#include <taglib/toolkit/tstring.h>
+#include <taglib/toolkit/tdebug.h>
 
 #include <taglib/ogg/oggpageheader.h>
 

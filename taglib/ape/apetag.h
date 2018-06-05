@@ -27,9 +27,9 @@
 #define TAGLIB_APETAG_H
 
 #include "taglib/tag.h"
-#include "tbytevector.h"
-#include "tmap.h"
-#include "tstring.h"
+#include "taglib/toolkit/tbytevector.h"
+#include "taglib/toolkit/tmap.h"
+#include "taglib/toolkit/tstring.h"
 #include "taglib/taglib_export.h"
 
 #include "apeitem.h"

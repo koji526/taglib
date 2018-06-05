@@ -26,7 +26,7 @@
 #ifndef TAGLIB_S3MFILE_H
 #define TAGLIB_S3MFILE_H
 
-#include "tfile.h"
+#include "taglib/toolkit/tfile.h"
 #include "taglib/audioproperties.h"
 #include "taglib/taglib_export.h"
 #include "taglib/mod/modfilebase.h"

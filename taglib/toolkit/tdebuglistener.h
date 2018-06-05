@@ -27,7 +27,7 @@
 #define TAGLIB_DEBUGLISTENER_H
 
 #include "taglib/taglib_export.h"
-#include "tstring.h"
+#include "taglib/toolkit/tstring.h"
 
 namespace TagLib
 {

@@ -27,7 +27,7 @@
 #define TAGLIB_ID3V2FOOTER_H
 
 #include "taglib/taglib_export.h"
-#include "tbytevector.h"
+#include "taglib/toolkit/tbytevector.h"
 
 namespace TagLib {
 

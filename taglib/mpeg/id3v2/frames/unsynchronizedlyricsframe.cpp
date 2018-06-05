@@ -27,10 +27,10 @@
  ***************************************************************************/
 
 #include "unsynchronizedlyricsframe.h"
-#include <tbytevectorlist.h>
+#include <taglib/toolkit/tbytevectorlist.h>
 #include <taglib/mpeg/id3v2/id3v2tag.h>
-#include <tdebug.h>
-#include <tpropertymap.h>
+#include <taglib/toolkit/tdebug.h>
+#include <taglib/toolkit/tpropertymap.h>
 
 using namespace TagLib;
 using namespace ID3v2;

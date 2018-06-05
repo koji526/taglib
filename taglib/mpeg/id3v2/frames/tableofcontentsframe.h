@@ -29,7 +29,7 @@
 #include "taglib/mpeg/id3v2/id3v2tag.h"
 #include "taglib/mpeg/id3v2/id3v2frame.h"
 
-#include "tbytevectorlist.h"
+#include "taglib/toolkit/tbytevectorlist.h"
 
 namespace TagLib {
 

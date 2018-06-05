@@ -25,9 +25,9 @@
 
 #include <bitset>
 
-#include <tstring.h>
-#include <tdebug.h>
-#include <tpropertymap.h>
+#include <taglib/toolkit/tstring.h>
+#include <taglib/toolkit/tdebug.h>
+#include <taglib/toolkit/tpropertymap.h>
 #include <taglib/tagutils.h>
 
 #include "vorbisfile.h"

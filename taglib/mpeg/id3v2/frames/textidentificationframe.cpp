@@ -23,10 +23,10 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#include <tbytevectorlist.h>
+#include <taglib/toolkit/tbytevectorlist.h>
 #include <taglib/mpeg/id3v2/id3v2tag.h>
 #include "textidentificationframe.h"
-#include "tpropertymap.h"
+#include "taglib/toolkit/tpropertymap.h"
 #include "taglib/mpeg/id3v1/id3v1genres.h"
 
 using namespace TagLib;

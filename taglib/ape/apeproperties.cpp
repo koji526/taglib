@@ -27,8 +27,8 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#include <tstring.h>
-#include <tdebug.h>
+#include <taglib/toolkit/tstring.h>
+#include <taglib/toolkit/tdebug.h>
 #include <bitset>
 #include "taglib/mpeg/id3v2/id3v2tag.h"
 #include "apeproperties.h"

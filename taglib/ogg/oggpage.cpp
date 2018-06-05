@@ -25,8 +25,8 @@
 
 #include <algorithm>
 
-#include <tstring.h>
-#include <tdebug.h>
+#include <taglib/toolkit/tstring.h>
+#include <taglib/toolkit/tdebug.h>
 
 #include "oggpage.h"
 #include "oggpageheader.h"

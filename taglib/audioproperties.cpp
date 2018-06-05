@@ -23,7 +23,7 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#include <tbytevector.h>
+#include <taglib/toolkit/tbytevector.h>
 
 #include "taglib/riff/aiff/aiffproperties.h"
 #include "taglib/ape/apeproperties.h"

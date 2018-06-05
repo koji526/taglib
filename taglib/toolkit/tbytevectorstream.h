@@ -28,7 +28,7 @@
 
 #include "taglib/taglib_export.h"
 #include "taglib.h"
-#include "tbytevector.h"
+#include "taglib/toolkit/tbytevector.h"
 #include "tiostream.h"
 
 namespace TagLib {

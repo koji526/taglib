@@ -27,7 +27,7 @@
 #define TAGLIB_MP4FILE_H
 
 #include "taglib/tag.h"
-#include "tfile.h"
+#include "taglib/toolkit/tfile.h"
 #include "taglib/taglib_export.h"
 #include "mp4properties.h"
 #include "mp4tag.h"

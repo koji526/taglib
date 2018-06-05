@@ -27,11 +27,11 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#include <tfile.h>
-#include <tfilestream.h>
-#include <tstring.h>
-#include <tdebug.h>
-#include <trefcounter.h>
+#include <taglib/toolkit/tfile.h>
+#include <taglib/toolkit/tfilestream.h>
+#include <taglib/toolkit/tstring.h>
+#include <taglib/toolkit/tdebug.h>
+#include <taglib/toolkit/trefcounter.h>
 
 #include "fileref.h"
 #include "taglib/asf/asffile.h"

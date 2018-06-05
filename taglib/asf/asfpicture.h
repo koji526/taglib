@@ -26,8 +26,8 @@
 #ifndef ASFPICTURE_H
 #define ASFPICTURE_H
 
-#include "tstring.h"
-#include "tbytevector.h"
+#include "taglib/toolkit/tstring.h"
+#include "taglib/toolkit/tbytevector.h"
 #include "taglib/taglib_export.h"
 #include "taglib/mpeg/id3v2/frames/attachedpictureframe.h"
 

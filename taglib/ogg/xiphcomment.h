@@ -27,11 +27,11 @@
 #define TAGLIB_VORBISCOMMENT_H
 
 #include "taglib/tag.h"
-#include "tlist.h"
-#include "tmap.h"
-#include "tstring.h"
-#include "tstringlist.h"
-#include "tbytevector.h"
+#include "taglib/toolkit/tlist.h"
+#include "taglib/toolkit/tmap.h"
+#include "taglib/toolkit/tstring.h"
+#include "taglib/toolkit/tstringlist.h"
+#include "taglib/toolkit/tbytevector.h"
 #include "taglib/flac/flacpicture.h"
 #include "taglib/taglib_export.h"
 

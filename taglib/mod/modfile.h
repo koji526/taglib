@@ -26,7 +26,7 @@
 #ifndef TAGLIB_MODFILE_H
 #define TAGLIB_MODFILE_H
 
-#include "tfile.h"
+#include "taglib/toolkit/tfile.h"
 #include "taglib/audioproperties.h"
 #include "taglib/taglib_export.h"
 #include "modfilebase.h"

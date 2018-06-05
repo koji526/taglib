@@ -27,7 +27,7 @@
 #define TAGLIB_ID3V1TAG_H
 
 #include "taglib/tag.h"
-#include "tbytevector.h"
+#include "taglib/toolkit/tbytevector.h"
 #include "taglib/taglib_export.h"
 
 namespace TagLib {

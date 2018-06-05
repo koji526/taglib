@@ -23,11 +23,11 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#include "tstringlist.h"
-#include "tdebug.h"
+#include "taglib/toolkit/tstringlist.h"
+#include "taglib/toolkit/tdebug.h"
 #include "xmfile.h"
 #include "taglib/mod/modfileprivate.h"
-#include "tpropertymap.h"
+#include "taglib/toolkit/tpropertymap.h"
 
 #include <string.h>
 #include <algorithm>

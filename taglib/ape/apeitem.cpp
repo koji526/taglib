@@ -23,8 +23,8 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#include <tbytevectorlist.h>
-#include <tdebug.h>
+#include <taglib/toolkit/tbytevectorlist.h>
+#include <taglib/toolkit/tdebug.h>
 
 #include "apeitem.h"
 

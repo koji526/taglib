@@ -26,8 +26,8 @@
 #ifndef TAGLIB_TEXTIDENTIFICATIONFRAME_H
 #define TAGLIB_TEXTIDENTIFICATIONFRAME_H
 
-#include "tstringlist.h"
-#include "tmap.h"
+#include "taglib/toolkit/tstringlist.h"
+#include "taglib/toolkit/tmap.h"
 #include "taglib/taglib_export.h"
 
 #include "taglib/mpeg/id3v2/id3v2frame.h"

@@ -24,9 +24,9 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#include <tbytevectorlist.h>
+#include <taglib/toolkit/tbytevectorlist.h>
 #include <taglib/mpeg/id3v2/id3v2tag.h>
-#include <tdebug.h>
+#include <taglib/toolkit/tdebug.h>
 
 #include "privateframe.h"
 

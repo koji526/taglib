@@ -25,10 +25,10 @@
 
 #include <algorithm>
 
-#include <tfile.h>
-#include <tbytevector.h>
-#include <tpropertymap.h>
-#include <tdebug.h>
+#include <taglib/toolkit/tfile.h>
+#include <taglib/toolkit/tbytevector.h>
+#include <taglib/toolkit/tpropertymap.h>
+#include <taglib/toolkit/tdebug.h>
 
 #include "taglib/mpeg/id3v2/id3v2tag.h"
 #include "taglib/mpeg/id3v2/id3v2header.h"

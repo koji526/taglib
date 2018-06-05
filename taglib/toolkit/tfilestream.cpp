@@ -24,7 +24,7 @@
  ***************************************************************************/
 
 #include "tfilestream.h"
-#include "tstring.h"
+#include "taglib/toolkit/tstring.h"
 #include "tdebug.h"
 
 #ifdef _WIN32

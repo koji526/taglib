@@ -26,9 +26,9 @@
 #ifndef TAGLIB_FLACPICTURE_H
 #define TAGLIB_FLACPICTURE_H
 
-#include "tlist.h"
-#include "tstring.h"
-#include "tbytevector.h"
+#include "taglib/toolkit/tlist.h"
+#include "taglib/toolkit/tstring.h"
+#include "taglib/toolkit/tbytevector.h"
 #include "taglib/taglib_export.h"
 #include "flacmetadatablock.h"
 

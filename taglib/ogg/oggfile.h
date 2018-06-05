@@ -24,8 +24,8 @@
  ***************************************************************************/
 
 #include "taglib/taglib_export.h"
-#include "tfile.h"
-#include "tbytevectorlist.h"
+#include "taglib/toolkit/tfile.h"
+#include "taglib/toolkit/tbytevectorlist.h"
 
 #ifndef TAGLIB_OGGFILE_H
 #define TAGLIB_OGGFILE_H

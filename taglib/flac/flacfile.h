@@ -27,8 +27,8 @@
 #define TAGLIB_FLACFILE_H
 
 #include "taglib/taglib_export.h"
-#include "tfile.h"
-#include "tlist.h"
+#include "taglib/toolkit/tfile.h"
+#include "taglib/toolkit/tlist.h"
 #include "taglib/tag.h"
 
 #include "flacpicture.h"

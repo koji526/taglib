@@ -25,10 +25,10 @@
 
 
 #include "modfile.h"
-#include "tstringlist.h"
-#include "tdebug.h"
+#include "taglib/toolkit/tstringlist.h"
+#include "taglib/toolkit/tdebug.h"
 #include "modfileprivate.h"
-#include "tpropertymap.h"
+#include "taglib/toolkit/tpropertymap.h"
 
 using namespace TagLib;
 using namespace Mod;

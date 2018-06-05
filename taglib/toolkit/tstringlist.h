@@ -26,8 +26,8 @@
 #ifndef TAGLIB_STRINGLIST_H
 #define TAGLIB_STRINGLIST_H
 
-#include "tstring.h"
-#include "tlist.h"
+#include "taglib/toolkit/tstring.h"
+#include "taglib/toolkit/tlist.h"
 #include "tbytevectorlist.h"
 #include "taglib/taglib_export.h"
 

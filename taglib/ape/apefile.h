@@ -34,7 +34,7 @@
 #ifndef TAGLIB_APEFILE_H
 #define TAGLIB_APEFILE_H
 
-#include "tfile.h"
+#include "taglib/toolkit/tfile.h"
 #include "taglib/taglib_export.h"
 #include "apeproperties.h"
 

@@ -23,9 +23,9 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#include "tfile.h"
+#include "taglib/toolkit/tfile.h"
 #include "tfilestream.h"
-#include "tstring.h"
+#include "taglib/toolkit/tstring.h"
 #include "tdebug.h"
 #include "tpropertymap.h"
 

@@ -23,9 +23,9 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#include <tdebug.h>
-#include <tstring.h>
-#include <tpropertymap.h>
+#include <taglib/toolkit/tdebug.h>
+#include <taglib/toolkit/tstring.h>
+#include <taglib/toolkit/tpropertymap.h>
 #include <taglib/tagutils.h>
 
 #include "mp4atom.h"

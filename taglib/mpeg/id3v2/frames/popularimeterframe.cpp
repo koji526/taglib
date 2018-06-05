@@ -23,7 +23,7 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#include <tdebug.h>
+#include <taglib/toolkit/tdebug.h>
 
 #include "popularimeterframe.h"
 

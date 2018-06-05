@@ -26,8 +26,8 @@
 #ifndef TAGLIB_OGGPAGEHEADER_H
 #define TAGLIB_OGGPAGEHEADER_H
 
-#include "tlist.h"
-#include "tbytevector.h"
+#include "taglib/toolkit/tlist.h"
+#include "taglib/toolkit/tbytevector.h"
 #include "taglib/taglib_export.h"
 
 namespace TagLib {

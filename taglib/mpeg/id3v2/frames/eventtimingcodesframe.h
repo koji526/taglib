@@ -27,7 +27,7 @@
 #define TAGLIB_EVENTTIMINGCODESFRAME_H
 
 #include "taglib/mpeg/id3v2/id3v2frame.h"
-#include "tlist.h"
+#include "taglib/toolkit/tlist.h"
 
 namespace TagLib {
 

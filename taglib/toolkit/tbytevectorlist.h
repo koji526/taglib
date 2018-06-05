@@ -27,8 +27,8 @@
 #define TAGLIB_BYTEVECTORLIST_H
 
 #include "taglib/taglib_export.h"
-#include "tbytevector.h"
-#include "tlist.h"
+#include "taglib/toolkit/tbytevector.h"
+#include "taglib/toolkit/tlist.h"
 
 namespace TagLib {
 

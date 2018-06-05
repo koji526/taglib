@@ -27,12 +27,12 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#include <tbytevector.h>
-#include <tstring.h>
-#include <tdebug.h>
+#include <taglib/toolkit/tbytevector.h>
+#include <taglib/toolkit/tstring.h>
+#include <taglib/toolkit/tdebug.h>
 #include <taglib/tagunion.h>
-#include <tstringlist.h>
-#include <tpropertymap.h>
+#include <taglib/toolkit/tstringlist.h>
+#include <taglib/toolkit/tpropertymap.h>
 #include <taglib/tagutils.h>
 
 #include "trueaudiofile.h"

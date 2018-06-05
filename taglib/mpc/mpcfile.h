@@ -27,12 +27,12 @@
 #define TAGLIB_MPCFILE_H
 
 #include "taglib/taglib_export.h"
-#include "tfile.h"
+#include "taglib/toolkit/tfile.h"
 #include "taglib/tag.h"
 
 #include "mpcproperties.h"
 
-#include "tlist.h"
+#include "taglib/toolkit/tlist.h"
 
 namespace TagLib {
 

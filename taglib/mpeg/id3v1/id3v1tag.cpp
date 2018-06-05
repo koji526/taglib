@@ -23,8 +23,8 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#include <tdebug.h>
-#include <tfile.h>
+#include <taglib/toolkit/tdebug.h>
+#include <taglib/toolkit/tfile.h>
 
 #include "id3v1tag.h"
 #include "id3v1genres.h"

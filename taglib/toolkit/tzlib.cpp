@@ -29,8 +29,8 @@
 
 #ifdef HAVE_ZLIB
 # include <zlib.h>
-# include <tstring.h>
-# include <tdebug.h>
+# include <taglib/toolkit/tstring.h>
+# include <taglib/toolkit/tdebug.h>
 #endif
 
 #include "tzlib.h"

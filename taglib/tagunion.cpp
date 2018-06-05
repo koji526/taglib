@@ -24,8 +24,8 @@
  ***************************************************************************/
 
 #include <taglib/tagunion.h>
-#include <tstringlist.h>
-#include <tpropertymap.h>
+#include <taglib/toolkit/tstringlist.h>
+#include <taglib/toolkit/tpropertymap.h>
 
 #include "taglib/mpeg/id3v1/id3v1tag.h"
 #include "taglib/mpeg/id3v2/id3v2tag.h"

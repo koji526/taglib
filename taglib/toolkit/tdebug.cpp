@@ -30,7 +30,7 @@
 #if !defined(NDEBUG) || defined(TRACE_IN_RELEASE)
 
 #include "tdebug.h"
-#include "tstring.h"
+#include "taglib/toolkit/tstring.h"
 #include "tdebuglistener.h"
 #include "tutils.h"
 
